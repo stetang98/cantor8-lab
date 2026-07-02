@@ -1,0 +1,129 @@
+{
+  "party": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+  "validator_party": "cantor8-digik-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+  "tap": {
+    "transaction": {
+      "updateId": "12203e052afc9c8ad0de1bff7d14210518adeb8214c49cda6c2d890fa3f459e00447",
+      "commandId": "c8lab-tap-0a92c956-e0fa-4f6a-addb-d2c6598d6d5a",
+      "workflowId": "",
+      "effectiveAt": "2026-07-02T03:22:01.517311Z",
+      "events": [
+        {
+          "CreatedEvent": {
+            "offset": 2217988,
+            "nodeId": 3,
+            "contractId": "00fffda6276eeb5eac4b353d4e88da42dd6db5b8c62dd962915fb3a667edd7d2efca1212206e42dbdbaa054d4622577c32340787135a13dca1531819fd88e6b4a8974589d9",
+            "templateId": "23f47481dab6b1ec01339d6e14494d85bb2844c25f45b26fc5c9ef4cd4942d1f:Splice.Amulet:Amulet",
+            "contractKey": null,
+            "contractKeyHash": "",
+            "createArgument": {
+              "dso": "DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+              "owner": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+              "amount": {
+                "initialAmount": "10.0000000000",
+                "createdAt": {
+                  "number": "51072"
+                },
+                "ratePerRound": {
+                  "rate": "0.0001353270"
+                }
+              }
+            },
+            "createdEventBlob": "",
+            "interfaceViews": [],
+            "witnessParties": [
+              "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+            ],
+            "signatories": [
+              "DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+              "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+            ],
+            "observers": [],
+            "createdAt": "2026-07-02T03:22:01.517311Z",
+            "packageName": "splice-amulet",
+            "representativePackageId": "23f47481dab6b1ec01339d6e14494d85bb2844c25f45b26fc5c9ef4cd4942d1f",
+            "acsDelta": true
+          }
+        }
+      ],
+      "offset": 2217988,
+      "synchronizerId": "global-domain::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+      "traceContext": {
+        "traceparent": "00-7e6346ed5dfab898c0de563f849d6674-0bf567ca8e72dfdd-03",
+        "tracestate": null
+      },
+      "recordTime": "2026-07-02T03:22:01.681543Z",
+      "externalTransactionHash": null,
+      "paidTrafficCost": 7383
+    }
+  },
+  "send": {
+    "transaction": {
+      "updateId": "1220c939264e40f026b85cebeb621dbe80f8f250099f992bc458a7356e53a9f40239",
+      "commandId": "c8lab-send-2a69dfea-fbee-4166-af43-e80aba688063",
+      "workflowId": "",
+      "effectiveAt": "2026-07-02T03:22:09.793568Z",
+      "events": [
+        {
+          "ArchivedEvent": {
+            "offset": 2217993,
+            "nodeId": 4,
+            "contractId": "00fffda6276eeb5eac4b353d4e88da42dd6db5b8c62dd962915fb3a667edd7d2efca1212206e42dbdbaa054d4622577c32340787135a13dca1531819fd88e6b4a8974589d9",
+            "templateId": "23f47481dab6b1ec01339d6e14494d85bb2844c25f45b26fc5c9ef4cd4942d1f:Splice.Amulet:Amulet",
+            "witnessParties": [
+              "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+            ],
+            "packageName": "splice-amulet",
+            "implementedInterfaces": []
+          }
+        },
+        {
+          "CreatedEvent": {
+            "offset": 2217993,
+            "nodeId": 6,
+            "contractId": "00d57cb72be7fdc0231b3bfc2bb770c22f46d291b9dc7228188634b9cf1cf4ea76ca12122070212336a1f58263e110d71ff0f9b9254143618b337430359298dd56d4c15072",
+            "templateId": "23f47481dab6b1ec01339d6e14494d85bb2844c25f45b26fc5c9ef4cd4942d1f:Splice.Amulet:Amulet",
+            "contractKey": null,
+            "contractKeyHash": "",
+            "createArgument": {
+              "dso": "DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+              "owner": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+              "amount": {
+                "initialAmount": "9.0000000000",
+                "createdAt": {
+                  "number": "51072"
+                },
+                "ratePerRound": {
+                  "rate": "0.0001353270"
+                }
+              }
+            },
+            "createdEventBlob": "",
+            "interfaceViews": [],
+            "witnessParties": [
+              "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+            ],
+            "signatories": [
+              "DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+              "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+            ],
+            "observers": [],
+            "createdAt": "2026-07-02T03:22:09.793568Z",
+            "packageName": "splice-amulet",
+            "representativePackageId": "23f47481dab6b1ec01339d6e14494d85bb2844c25f45b26fc5c9ef4cd4942d1f",
+            "acsDelta": true
+          }
+        }
+      ],
+      "offset": 2217993,
+      "synchronizerId": "global-domain::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+      "traceContext": {
+        "traceparent": "00-66e5206bb1389e25beace7925b8a8fd0-18a9ba6914bbb619-03",
+        "tracestate": null
+      },
+      "recordTime": "2026-07-02T03:22:09.808173Z",
+      "externalTransactionHash": null,
+      "paidTrafficCost": 8021
+    }
+  }
+}

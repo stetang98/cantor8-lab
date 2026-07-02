@@ -1,0 +1,24 @@
+{
+  "admin_api_endpoint": "https://api.validator.dev.digik.cantor8.tech/api/validator/v0/admin/users",
+  "requested_name": "stetang-c8lab-1",
+  "onboard_response": {
+    "party_id": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+  },
+  "party_id": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+  "ledger_api_party_details": {
+    "status": 200,
+    "body": {
+      "partyDetails": [
+        {
+          "party": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+          "isLocal": true,
+          "localMetadata": {
+            "resourceVersion": "",
+            "annotations": {}
+          },
+          "identityProviderId": ""
+        }
+      ]
+    }
+  }
+}

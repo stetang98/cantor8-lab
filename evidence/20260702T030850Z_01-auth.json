@@ -1,0 +1,67 @@
+{
+  "token_endpoint": "https://auth.dev.digik.cantor8.tech/realms/master/protocol/openid-connect/token",
+  "client_id": "hackathon",
+  "grant_type": "client_credentials",
+  "access_token_prefix": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwi...(redacted, expires in 900s)",
+  "decoded_claims": {
+    "exp": 1782962629,
+    "iat": 1782961729,
+    "jti": "trrtcc:a33489d0-4291-7866-e149-2fcb994b7ef0",
+    "iss": "https://auth.dev.digik.cantor8.tech/realms/master",
+    "aud": [
+      "https://ledger_api.validator.dev.digik.cantor8.tech",
+      "https://validator.dev.digik.cantor8.tech/api"
+    ],
+    "sub": "validator-backend@clients",
+    "typ": "Bearer",
+    "azp": "hackathon",
+    "scope": "validator-api-audience ledger-api-audience",
+    "clientHost": "10.0.69.225",
+    "clientAddress": "10.0.69.225",
+    "client_id": "hackathon"
+  },
+  "ledger_api_version_probe": {
+    "status": 200,
+    "body": {
+      "version": "3.5.6",
+      "features": {
+        "experimental": {
+          "staticTime": {
+            "supported": false
+          },
+          "commandInspectionService": {
+            "supported": true
+          }
+        },
+        "userManagement": {
+          "supported": true,
+          "maxRightsPerUser": 1000,
+          "maxUsersPageSize": 1000
+        },
+        "partyManagement": {
+          "maxPartiesPageSize": 10000
+        },
+        "offsetCheckpoint": {
+          "maxOffsetCheckpointEmissionDelay": {
+            "seconds": 75,
+            "nanos": 0,
+            "unknownFields": {
+              "fields": {}
+            }
+          }
+        },
+        "packageFeature": {
+          "maxVettedPackagesPageSize": 100
+        }
+      }
+    }
+  },
+  "validator_user_probe": {
+    "status": 200,
+    "body": {
+      "party_id": "cantor8-digik-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+      "user_name": "validator-backend@clients",
+      "featured": true
+    }
+  }
+}

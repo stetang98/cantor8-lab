@@ -1,0 +1,35 @@
+{
+  "party": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+  "holding_interface": "#splice-api-token-holding-v1:Splice.Api.Token.HoldingV1:Holding",
+  "holdings": [
+    {
+      "contract_id": "00d57cb72be7fdc0231b3bfc2bb770c22f46d291b9dc7228188634b9cf1cf4ea76ca12122070212336a1f58263e110d71ff0f9b9254143618b337430359298dd56d4c15072",
+      "template_id": "23f47481dab6b1ec01339d6e14494d85bb2844c25f45b26fc5c9ef4cd4942d1f:Splice.Amulet:Amulet",
+      "instrument_id": "Amulet",
+      "amount": "9.0000000000",
+      "locked": false,
+      "view": {
+        "owner": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+        "instrumentId": {
+          "admin": "DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+          "id": "Amulet"
+        },
+        "amount": "9.0000000000",
+        "lock": null,
+        "meta": {
+          "values": {
+            "amulet.splice.lfdecentralizedtrust.org/created-in-round": "51072",
+            "amulet.splice.lfdecentralizedtrust.org/rate-per-round": "0.000135327"
+          }
+        }
+      }
+    }
+  ],
+  "totals": {
+    "Amulet": {
+      "unlocked": "9.0000000000",
+      "locked": "0",
+      "contracts": 1
+    }
+  }
+}

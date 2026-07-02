@@ -1,0 +1,33 @@
+{
+  "acs_created_event": {
+    "offset": 2217910,
+    "nodeId": 5,
+    "contractId": "007135023b2796c9233f70d07d98819a9d276cfc98e4dd421423efc40a7392e1f6ca121220f2866de7bc25bfe99e95890aabe9f395c80f08a70489702b06c57da93becb81f",
+    "templateId": "23f47481dab6b1ec01339d6e14494d85bb2844c25f45b26fc5c9ef4cd4942d1f:Splice.AmuletRules:TransferPreapproval",
+    "contractKey": null,
+    "contractKeyHash": "",
+    "createArgument": {
+      "dso": "DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+      "receiver": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+      "provider": "cantor8-digik-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+      "validFrom": "2026-07-02T03:11:06.594203Z",
+      "lastRenewedAt": "2026-07-02T03:11:06.594203Z",
+      "expiresAt": "2026-09-30T03:11:06.526077Z"
+    },
+    "createdEventBlob": "",
+    "interfaceViews": [],
+    "witnessParties": [
+      "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+    ],
+    "signatories": [
+      "DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+      "cantor8-digik-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+      "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+    ],
+    "observers": [],
+    "createdAt": "2026-07-02T03:11:06.594203Z",
+    "packageName": "splice-amulet",
+    "representativePackageId": "23f47481dab6b1ec01339d6e14494d85bb2844c25f45b26fc5c9ef4cd4942d1f",
+    "acsDelta": true
+  }
+}

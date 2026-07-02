@@ -1,0 +1,49 @@
+{
+  "transaction": {
+    "updateId": "1220cd6e25267acf43258916682f9ca43678e3e8fac36381aaf4547c27bc114487fd",
+    "commandId": "c8lab-preapproval-b80b1cd7-0d58-4efa-b2ff-2797f67573f7",
+    "workflowId": "",
+    "effectiveAt": "2026-07-02T03:11:01.795712Z",
+    "events": [
+      {
+        "CreatedEvent": {
+          "offset": 2217907,
+          "nodeId": 0,
+          "contractId": "00750f9be7ba2fe14312be24ca764a1dbd66f4f6786932ce4a3381294d86cc0a46ca12122020e0454884e452d424a6855edf9b79314c1f2208430412599a9ee4a3454bf682",
+          "templateId": "f799a58fa53dfe48bae52bd5dbcc2b578a7d4dfee3ae3f4eb7635fe9a8cc67d3:Splice.Wallet.TransferPreapproval:TransferPreapprovalProposal",
+          "contractKey": null,
+          "contractKeyHash": "",
+          "createArgument": {
+            "receiver": "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+            "provider": "cantor8-digik-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f",
+            "expectedDso": "DSO::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a"
+          },
+          "createdEventBlob": "",
+          "interfaceViews": [],
+          "witnessParties": [
+            "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+          ],
+          "signatories": [
+            "stetang-c8lab-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+          ],
+          "observers": [
+            "cantor8-digik-1::12204e94c0e449c0efcd270dd1e68259c36471cebef132e5c7dfc2750fe8c9eed77f"
+          ],
+          "createdAt": "2026-07-02T03:11:01.795712Z",
+          "packageName": "splice-wallet",
+          "representativePackageId": "f799a58fa53dfe48bae52bd5dbcc2b578a7d4dfee3ae3f4eb7635fe9a8cc67d3",
+          "acsDelta": true
+        }
+      }
+    ],
+    "offset": 2217907,
+    "synchronizerId": "global-domain::1220be58c29e65de40bf273be1dc2b266d43a9a002ea5b18955aeef7aac881bb471a",
+    "traceContext": {
+      "traceparent": "00-69deb3e9220d55db00c6a4dd10de9c4d-0310393cc2f63ba8-03",
+      "tracestate": null
+    },
+    "recordTime": "2026-07-02T03:11:00.916439Z",
+    "externalTransactionHash": null,
+    "paidTrafficCost": 2801
+  }
+}
