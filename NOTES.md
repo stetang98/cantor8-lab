@@ -12,7 +12,7 @@ Participant: Canton **3.5.6** (from `GET /v2/version`). Splice DARs deployed
 |---|---|
 | `GET /realms/master/.well-known/openid-configuration` | 200 (realm exists) |
 | `GET /realms/hackathon/.well-known/...` | 404 (no such realm) |
-| client_credentials, `client_id=hackathon`, `client_secret=0JEl...` | **200 — WORKS** |
+| client_credentials, `client_id=hackathon`, `client_secret=<redacted>` | **200 — WORKS** |
 | client_credentials, `client_id=hackathon`, no secret | 401 `unauthorized_client` |
 
 Winning combo: realm `master`, `client_id=hackathon`, secret from the doc.
